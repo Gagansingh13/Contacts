@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorBackground">
+
+
+
+        <LinearLayout
+            android:layout_width="575dp"
+            android:layout_height="39dp"
+            android:background="@color/colorBackground">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="414dp"
+                android:layout_height="match_parent"
+                android:text="@string/title"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="351dp"
+                android:layout_height="39dp"
+                android:layout_weight="1"
+                android:src="@drawable/plus"
+                android:onClick="GotoThirdScreen"/>
+        </LinearLayout>
+        <SearchView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:id="@+id/searchcontacts"
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textview1"
+            android:textSize="25dp"
+            android:textColor="@android:color/black"
+            android:clickable="true"
+            android:layout_marginBottom="15dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+        <TextView
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/name"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/holo_blue_dark"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textview2"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alphabets"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginBottom="15dp"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+
+        <ListView
+            android:id="@+id/viewcontacts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/editText7"
+            android:layout_width="match_parent"
+            android:layout_height="139dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="20dp"
+            android:onClick="GotoSecondScreen"/>
+
+    </LinearLayout>
+</ScrollView>

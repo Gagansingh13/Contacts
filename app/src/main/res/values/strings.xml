@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Contacts_Project1</string>
+    <string name="searchcontacts">Search in Contacts</string>
+    <string name="textview1">My Groups</string>
+    <string name="textview2">Setup MY Profile</string>
+    <string name="name">ME</string>
+    <string name="alphabets">A</string>
+    <string name="title">CONTACTS</string>
+    <string name="cancel">Cancel</string>
+    <string name="newcontact">New Contact</string>
+    <string name="save">Save</string>
+    <string name="storagepath">Storage Path: Google</string>
+    <string name="givenname">Given Name</string>
+    <string name="familyname">Family Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="email">E-Mail"</string>
+    <string name="group">Select Group > </string>
+    <string name="whatsappmsg"> Message </string>
+    <string name="editcontact">Edit Contact</string>
+    <string name="dltcontact">Delete Contact</string>
+    <string name="sendcontact">Send Contact</string>
+    <string name="addtopersonalcollection">Add to Personal Collection</string>
+    <string name="facebook">Profile</string>
+    <string name="google">Google</string>
+    <string name="clickme">Click on the plus sign to go to Third Screen</string>
+    <string name="setupprofile">Set up Profile</string>
+
+</resources>
